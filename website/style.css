@@ -1,0 +1,395 @@
+/* ============================================================
+   E-COMMERCE SALES ANALYTICS — STYLESHEET
+   ============================================================ */
+
+:root {
+    --bg-dark: #0f0e17;
+    --bg-darker: #0a0912;
+    --surface: rgba(255, 255, 255, 0.04);
+    --surface-border: rgba(255, 255, 255, 0.08);
+    --accent: #6c5ce7;
+    --accent-light: #a29bfe;
+    --accent-teal: #00cec9;
+    --text-main: #eaeaf2;
+    --text-muted: #9a97b5;
+    --radius: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg-dark);
+    color: var(--text-main);
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+section {
+    position: relative;
+    padding: 90px 0;
+}
+
+.section-padding {
+    padding: 90px 0;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    background: rgba(10, 9, 18, 0.85);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--surface-border);
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+    color: var(--text-main) !important;
+}
+
+.navbar-brand i {
+    color: var(--accent-light);
+    margin-right: 8px;
+}
+
+.nav-link {
+    color: var(--text-muted) !important;
+    font-weight: 500;
+    margin: 0 6px;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--text-main) !important;
+}
+
+/* ================= HERO ================= */
+
+.hero {
+    padding-top: 160px;
+    padding-bottom: 100px;
+    background: radial-gradient(circle at 20% 20%, rgba(108, 92, 231, 0.25), transparent 45%),
+                radial-gradient(circle at 80% 60%, rgba(0, 206, 201, 0.18), transparent 40%),
+                var(--bg-darker);
+}
+
+.hero-badge {
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 999px;
+    background: var(--surface);
+    border: 1px solid var(--surface-border);
+    color: var(--accent-light);
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.hero h1 span {
+    display: block;
+    background: linear-gradient(90deg, var(--accent-light), var(--accent-teal));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.hero p {
+    color: var(--text-muted);
+    font-size: 1.05rem;
+    max-width: 520px;
+    margin-bottom: 30px;
+}
+
+.hero-buttons .btn {
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 12px 28px;
+}
+
+.btn-primary {
+    background: var(--accent);
+    border-color: var(--accent);
+}
+
+.btn-primary:hover {
+    background: #5a4bd6;
+    border-color: #5a4bd6;
+}
+
+.btn-outline-light:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+/* ================= GLASS CARD ================= */
+
+.glass-card {
+    background: var(--surface);
+    border: 1px solid var(--surface-border);
+    border-radius: var(--radius);
+    padding: 30px;
+    backdrop-filter: blur(8px);
+}
+
+.glass-card i {
+    font-size: 2rem;
+    color: var(--accent-light);
+    margin-bottom: 12px;
+    display: block;
+}
+
+.glass-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0;
+}
+
+.glass-card ul li {
+    color: var(--text-muted);
+    padding: 6px 0;
+    border-bottom: 1px dashed var(--surface-border);
+}
+
+.glass-card ul li:last-child {
+    border-bottom: none;
+}
+
+.glass-card pre {
+    background: var(--bg-darker);
+    border-radius: 10px;
+    padding: 16px;
+    margin-top: 10px;
+    overflow-x: auto;
+}
+
+.glass-card pre code {
+    color: #a3e4d7;
+    font-size: 0.85rem;
+    font-family: "Courier New", monospace;
+    white-space: pre;
+}
+
+/* ================= BACKGROUND CIRCLES ================= */
+
+.circles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.circles span {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(108, 92, 231, 0.12);
+    filter: blur(2px);
+    animation: float 12s infinite ease-in-out;
+}
+
+.circles span:nth-child(1) { width: 80px; height: 80px; left: 10%; top: 20%; animation-delay: 0s; }
+.circles span:nth-child(2) { width: 120px; height: 120px; left: 70%; top: 10%; animation-delay: 2s; }
+.circles span:nth-child(3) { width: 60px; height: 60px; left: 40%; top: 60%; animation-delay: 4s; }
+.circles span:nth-child(4) { width: 100px; height: 100px; left: 85%; top: 70%; animation-delay: 6s; }
+.circles span:nth-child(5) { width: 50px; height: 50px; left: 20%; top: 80%; animation-delay: 8s; }
+.circles span:nth-child(6) { width: 90px; height: 90px; left: 55%; top: 30%; animation-delay: 10s; }
+
+@keyframes float {
+    0%, 100% { transform: translateY(0) translateX(0); }
+    50% { transform: translateY(-30px) translateX(20px); }
+}
+
+/* ================= SECTION TITLE ================= */
+
+.section-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.section-title.text-start {
+    text-align: left;
+}
+
+.section-subtitle,
+.section-title + p {
+    color: var(--text-muted);
+}
+
+/* ================= KPI CARDS ================= */
+
+.kpi-card {
+    background: var(--surface);
+    border: 1px solid var(--surface-border);
+    border-radius: var(--radius);
+    padding: 30px 20px;
+    text-align: center;
+    height: 100%;
+    transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.kpi-card:hover {
+    transform: translateY(-6px);
+    border-color: var(--accent);
+}
+
+.kpi-card i {
+    font-size: 1.8rem;
+    color: var(--accent-teal);
+    margin-bottom: 12px;
+    display: block;
+}
+
+.kpi-card h3.counter {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 6px 0;
+    color: var(--text-main);
+}
+
+.kpi-card h5 {
+    margin: 8px 0 0;
+    font-weight: 600;
+}
+
+.kpi-card p {
+    color: var(--text-muted);
+    margin: 0;
+}
+
+/* ================= CHART CARDS ================= */
+
+.chart-card {
+    background: var(--surface);
+    border: 1px solid var(--surface-border);
+    border-radius: var(--radius);
+    padding: 25px;
+    height: 100%;
+}
+
+.chart-card h4 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.chart-card canvas {
+    max-height: 320px;
+}
+
+/* ================= WORKFLOW ================= */
+
+.workflow div {
+    padding: 6px 0;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+.workflow div:nth-child(odd) {
+    color: var(--text-main);
+}
+
+/* ================= FOOTER ================= */
+
+.footer {
+    background: var(--bg-darker);
+    border-top: 1px solid var(--surface-border);
+    padding: 40px 0;
+    color: var(--text-muted);
+}
+
+.footer h4 {
+    color: var(--text-main);
+    font-weight: 700;
+}
+
+.footer h4 i {
+    color: var(--accent-light);
+    margin-right: 8px;
+}
+
+/* ================= BACK TO TOP ================= */
+
+#backToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: none;
+    background: var(--accent);
+    color: #fff;
+    font-size: 1.2rem;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    z-index: 999;
+    cursor: pointer;
+}
+
+#backToTop.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+#backToTop:hover {
+    background: #5a4bd6;
+}
+
+/* ================= LOADER ================= */
+
+#loader {
+    position: fixed;
+    inset: 0;
+    background: var(--bg-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+    transition: opacity 0.3s ease;
+}
+
+/* ================= PROGRESS BAR ================= */
+
+#progressContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: transparent;
+    z-index: 1500;
+}
+
+#progressBar {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, var(--accent), var(--accent-teal));
+    transition: width 0.1s ease-out;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 991px) {
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+}

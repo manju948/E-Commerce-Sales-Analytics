@@ -1,0 +1,301 @@
+ProductID,ProductName,Category,Brand,Price,Stock
+1,Laptop,Electronics,Nike,36248,145
+2,Phone,Electronics,Apple,13634,366
+3,Monitor,Electronics,Samsung,55502,36
+4,Laptop,Electronics,Samsung,28857,139
+5,Monitor,Electronics,Philips,3678,307
+6,Phone,Electronics,LG,55187,132
+7,Keyboard,Electronics,Philips,36663,434
+8,Laptop,Electronics,Apple,55592,194
+9,Headphones,Electronics,Apple,28421,410
+10,Headphones,Electronics,Samsung,12356,214
+11,Laptop,Electronics,Sony,45282,329
+12,Headphones,Electronics,Nike,60417,294
+13,Laptop,Electronics,Boat,10528,302
+14,Headphones,Electronics,Philips,47600,315
+15,Phone,Electronics,Samsung,6206,358
+16,Phone,Electronics,HP,10658,457
+17,Phone,Electronics,Samsung,50023,162
+18,Keyboard,Electronics,Sony,21519,209
+19,Headphones,Electronics,Dell,35193,379
+20,Laptop,Electronics,Philips,22631,293
+21,Phone,Electronics,Apple,60789,214
+22,Headphones,Electronics,LG,28985,370
+23,Headphones,Electronics,Nike,30221,440
+24,Laptop,Electronics,Sony,52781,157
+25,Laptop,Electronics,Dell,41445,128
+26,Keyboard,Electronics,Boat,60342,93
+27,Headphones,Electronics,Apple,32525,401
+28,Monitor,Electronics,LG,34638,402
+29,Monitor,Electronics,Boat,52550,205
+30,Phone,Electronics,Apple,66984,272
+31,Laptop,Electronics,Nike,14571,98
+32,Phone,Electronics,Boat,8526,217
+33,Keyboard,Electronics,Philips,61548,290
+34,Headphones,Electronics,LG,1704,368
+35,Laptop,Electronics,LG,35173,413
+36,Headphones,Electronics,Samsung,38669,242
+37,Phone,Electronics,Puma,625,389
+38,Headphones,Electronics,LG,23616,279
+39,Laptop,Electronics,HP,66740,331
+40,Phone,Electronics,Apple,49209,410
+41,Phone,Electronics,LG,69714,490
+42,Laptop,Electronics,Philips,42687,270
+43,Laptop,Electronics,Samsung,47776,469
+44,Headphones,Electronics,Dell,7792,143
+45,Monitor,Electronics,Samsung,11426,394
+46,Keyboard,Electronics,Samsung,16683,85
+47,Keyboard,Electronics,LG,21843,155
+48,Monitor,Electronics,Philips,55661,128
+49,Monitor,Electronics,Dell,41057,224
+50,Headphones,Electronics,Puma,68039,251
+51,T-Shirt,Clothing,Dell,29651,52
+52,Jacket,Clothing,Nike,30361,321
+53,Jeans,Clothing,Nike,9505,382
+54,T-Shirt,Clothing,Dell,9034,483
+55,T-Shirt,Clothing,Sony,9487,283
+56,Jeans,Clothing,HP,63824,129
+57,Cap,Clothing,Apple,62153,144
+58,Shoes,Clothing,Boat,25157,68
+59,T-Shirt,Clothing,Boat,46638,236
+60,Shoes,Clothing,Puma,7300,364
+61,T-Shirt,Clothing,Nike,52972,392
+62,Jacket,Clothing,Samsung,32791,118
+63,Jeans,Clothing,LG,59000,91
+64,Shoes,Clothing,Apple,36709,256
+65,Jeans,Clothing,Samsung,58282,433
+66,Cap,Clothing,Samsung,6830,353
+67,Cap,Clothing,Nike,12424,494
+68,Jeans,Clothing,Apple,53469,268
+69,Shoes,Clothing,Dell,52765,482
+70,T-Shirt,Clothing,Apple,49872,21
+71,Shoes,Clothing,HP,59838,166
+72,Shoes,Clothing,LG,63988,99
+73,Jeans,Clothing,HP,28734,49
+74,Cap,Clothing,LG,8189,402
+75,Jacket,Clothing,Nike,6772,319
+76,Shoes,Clothing,LG,69815,100
+77,T-Shirt,Clothing,LG,10700,455
+78,Jeans,Clothing,Samsung,9107,365
+79,Jeans,Clothing,Boat,15913,475
+80,Cap,Clothing,Dell,5409,337
+81,T-Shirt,Clothing,Boat,68722,181
+82,Jacket,Clothing,Dell,41380,142
+83,Jacket,Clothing,Boat,17354,363
+84,Jacket,Clothing,Puma,41641,495
+85,T-Shirt,Clothing,Nike,60268,338
+86,Cap,Clothing,Samsung,9802,295
+87,Jeans,Clothing,LG,34960,87
+88,Jacket,Clothing,Samsung,32218,209
+89,Jacket,Clothing,Apple,57633,446
+90,Cap,Clothing,HP,69529,24
+91,Cap,Clothing,HP,13777,500
+92,Jeans,Clothing,HP,15329,475
+93,T-Shirt,Clothing,LG,20574,159
+94,Jacket,Clothing,Philips,27807,387
+95,Jacket,Clothing,Dell,34800,278
+96,Shoes,Clothing,HP,6858,67
+97,Shoes,Clothing,HP,5978,21
+98,Jacket,Clothing,Apple,34535,102
+99,Shoes,Clothing,LG,56257,307
+100,T-Shirt,Clothing,Samsung,10062,472
+101,Cookware,Home & Kitchen,LG,4922,447
+102,Chair,Home & Kitchen,Philips,19610,240
+103,Cookware,Home & Kitchen,Nike,40604,206
+104,Mixer,Home & Kitchen,Sony,27735,369
+105,Cookware,Home & Kitchen,Samsung,46557,419
+106,Bottle,Home & Kitchen,Boat,20457,493
+107,Cookware,Home & Kitchen,Apple,23406,471
+108,Table,Home & Kitchen,Nike,23709,397
+109,Chair,Home & Kitchen,Boat,32727,156
+110,Cookware,Home & Kitchen,Samsung,50340,466
+111,Mixer,Home & Kitchen,Puma,29354,122
+112,Table,Home & Kitchen,Sony,40201,440
+113,Cookware,Home & Kitchen,Dell,3301,357
+114,Cookware,Home & Kitchen,Boat,43225,162
+115,Mixer,Home & Kitchen,HP,46225,348
+116,Bottle,Home & Kitchen,Boat,43604,500
+117,Mixer,Home & Kitchen,Samsung,34437,111
+118,Bottle,Home & Kitchen,HP,5214,75
+119,Bottle,Home & Kitchen,Boat,45509,393
+120,Chair,Home & Kitchen,Boat,67233,79
+121,Table,Home & Kitchen,Philips,25114,150
+122,Mixer,Home & Kitchen,Boat,421,286
+123,Bottle,Home & Kitchen,Dell,47939,240
+124,Mixer,Home & Kitchen,Sony,41345,359
+125,Mixer,Home & Kitchen,HP,66669,178
+126,Table,Home & Kitchen,Sony,52943,376
+127,Chair,Home & Kitchen,LG,16883,118
+128,Table,Home & Kitchen,Boat,23010,335
+129,Bottle,Home & Kitchen,HP,53425,300
+130,Mixer,Home & Kitchen,HP,37806,127
+131,Table,Home & Kitchen,Philips,42437,258
+132,Table,Home & Kitchen,Puma,28210,281
+133,Table,Home & Kitchen,Apple,11314,165
+134,Bottle,Home & Kitchen,Philips,44133,67
+135,Cookware,Home & Kitchen,HP,29644,432
+136,Cookware,Home & Kitchen,Apple,3401,43
+137,Cookware,Home & Kitchen,Puma,9745,253
+138,Table,Home & Kitchen,Philips,25685,387
+139,Table,Home & Kitchen,Puma,52583,144
+140,Cookware,Home & Kitchen,Nike,14170,418
+141,Table,Home & Kitchen,Dell,23253,431
+142,Bottle,Home & Kitchen,Puma,6782,305
+143,Cookware,Home & Kitchen,Samsung,60029,88
+144,Table,Home & Kitchen,LG,41788,406
+145,Table,Home & Kitchen,Philips,66362,238
+146,Bottle,Home & Kitchen,Puma,21061,400
+147,Table,Home & Kitchen,Puma,34172,404
+148,Cookware,Home & Kitchen,HP,68527,268
+149,Cookware,Home & Kitchen,HP,57854,59
+150,Chair,Home & Kitchen,Dell,35814,191
+151,Biography,Books,LG,10761,90
+152,Dictionary,Books,Dell,50405,375
+153,Dictionary,Books,Dell,8618,232
+154,Comics,Books,Sony,61269,232
+155,Novel,Books,Dell,55269,219
+156,Textbook,Books,Nike,50057,264
+157,Novel,Books,Sony,39339,405
+158,Comics,Books,Boat,29106,269
+159,Dictionary,Books,HP,57325,268
+160,Novel,Books,Boat,44257,362
+161,Comics,Books,Apple,61461,490
+162,Dictionary,Books,Philips,3734,484
+163,Comics,Books,Philips,3752,62
+164,Comics,Books,Apple,60715,113
+165,Novel,Books,HP,49889,187
+166,Dictionary,Books,Puma,43040,192
+167,Comics,Books,HP,55455,149
+168,Novel,Books,Puma,2740,403
+169,Textbook,Books,Nike,46070,134
+170,Novel,Books,Nike,4267,146
+171,Dictionary,Books,Nike,20173,142
+172,Dictionary,Books,Puma,15193,308
+173,Dictionary,Books,Puma,33786,412
+174,Biography,Books,Apple,15212,418
+175,Dictionary,Books,HP,14368,316
+176,Novel,Books,HP,49392,223
+177,Dictionary,Books,Samsung,32030,72
+178,Biography,Books,Philips,16066,427
+179,Textbook,Books,Nike,45708,292
+180,Comics,Books,Sony,9238,279
+181,Biography,Books,Nike,55257,441
+182,Comics,Books,Samsung,57022,205
+183,Comics,Books,Apple,57280,110
+184,Textbook,Books,HP,63572,258
+185,Comics,Books,Philips,35379,185
+186,Dictionary,Books,Samsung,36759,471
+187,Comics,Books,Dell,61110,311
+188,Textbook,Books,Boat,44292,34
+189,Comics,Books,Sony,24034,269
+190,Dictionary,Books,Sony,34062,194
+191,Biography,Books,Philips,36411,304
+192,Novel,Books,LG,25242,63
+193,Dictionary,Books,Boat,64238,304
+194,Dictionary,Books,Puma,64532,249
+195,Novel,Books,Samsung,38766,133
+196,Comics,Books,Dell,40335,359
+197,Textbook,Books,Sony,62231,303
+198,Textbook,Books,Sony,55971,401
+199,Textbook,Books,Sony,46312,379
+200,Comics,Books,HP,40389,148
+201,Cricket Bat,Sports,Samsung,25442,181
+202,Football,Sports,LG,24467,118
+203,Cricket Bat,Sports,Puma,36441,390
+204,Helmet,Sports,LG,37293,71
+205,Cricket Bat,Sports,HP,30016,204
+206,Cricket Bat,Sports,HP,2054,382
+207,Helmet,Sports,Apple,36154,43
+208,Football,Sports,LG,38490,377
+209,Cricket Bat,Sports,Puma,13646,466
+210,Football,Sports,Philips,37468,260
+211,Dumbbell,Sports,Puma,44857,114
+212,Football,Sports,HP,62816,78
+213,Football,Sports,Boat,64654,57
+214,Helmet,Sports,Nike,20087,96
+215,Helmet,Sports,HP,11364,147
+216,Football,Sports,LG,54748,330
+217,Helmet,Sports,Philips,29781,417
+218,Helmet,Sports,Boat,59249,485
+219,Dumbbell,Sports,HP,56407,176
+220,Helmet,Sports,Philips,8094,332
+221,Football,Sports,Dell,27859,155
+222,Football,Sports,Apple,31639,108
+223,Helmet,Sports,Samsung,20717,21
+224,Dumbbell,Sports,Puma,61792,169
+225,Football,Sports,Dell,37962,381
+226,Yoga Mat,Sports,Puma,9529,371
+227,Cricket Bat,Sports,HP,26128,237
+228,Football,Sports,LG,29666,351
+229,Cricket Bat,Sports,HP,18843,56
+230,Football,Sports,Apple,40519,324
+231,Helmet,Sports,HP,57760,83
+232,Dumbbell,Sports,HP,52957,159
+233,Helmet,Sports,LG,64922,244
+234,Football,Sports,Philips,5424,475
+235,Dumbbell,Sports,Sony,33016,33
+236,Football,Sports,Dell,2919,411
+237,Yoga Mat,Sports,Philips,5473,410
+238,Cricket Bat,Sports,Puma,68221,353
+239,Dumbbell,Sports,HP,23988,319
+240,Dumbbell,Sports,Puma,12159,260
+241,Yoga Mat,Sports,Boat,43887,184
+242,Football,Sports,Apple,43428,230
+243,Dumbbell,Sports,HP,52688,436
+244,Helmet,Sports,Nike,59814,65
+245,Yoga Mat,Sports,HP,42572,79
+246,Dumbbell,Sports,LG,350,356
+247,Helmet,Sports,Puma,54365,47
+248,Cricket Bat,Sports,LG,47619,338
+249,Dumbbell,Sports,Puma,6964,124
+250,Yoga Mat,Sports,LG,17372,494
+251,Lipstick,Beauty,Puma,63732,82
+252,Face Wash,Beauty,Philips,31565,383
+253,Perfume,Beauty,HP,1992,302
+254,Shampoo,Beauty,Samsung,29651,450
+255,Face Wash,Beauty,Puma,15596,351
+256,Perfume,Beauty,Puma,38454,280
+257,Lipstick,Beauty,Boat,63442,261
+258,Perfume,Beauty,Puma,19158,216
+259,Perfume,Beauty,Philips,66816,402
+260,Perfume,Beauty,Samsung,36408,415
+261,Shampoo,Beauty,Sony,66750,156
+262,Face Wash,Beauty,HP,39332,448
+263,Cream,Beauty,Philips,64378,463
+264,Perfume,Beauty,Puma,63683,196
+265,Lipstick,Beauty,LG,49641,253
+266,Lipstick,Beauty,Dell,31500,312
+267,Shampoo,Beauty,Dell,54041,42
+268,Lipstick,Beauty,Puma,50168,217
+269,Perfume,Beauty,Puma,5052,84
+270,Cream,Beauty,Philips,43715,465
+271,Face Wash,Beauty,Puma,13269,289
+272,Shampoo,Beauty,Nike,19094,229
+273,Perfume,Beauty,Samsung,61737,420
+274,Lipstick,Beauty,Sony,52298,352
+275,Face Wash,Beauty,Sony,50008,182
+276,Shampoo,Beauty,LG,4905,336
+277,Face Wash,Beauty,Dell,37867,136
+278,Face Wash,Beauty,Boat,13103,409
+279,Face Wash,Beauty,Puma,22005,375
+280,Lipstick,Beauty,Nike,6228,186
+281,Face Wash,Beauty,HP,47184,211
+282,Shampoo,Beauty,Apple,32207,291
+283,Shampoo,Beauty,Philips,23800,107
+284,Perfume,Beauty,Samsung,50340,337
+285,Perfume,Beauty,Puma,18958,138
+286,Shampoo,Beauty,HP,60436,150
+287,Face Wash,Beauty,Puma,37900,366
+288,Cream,Beauty,Apple,9881,246
+289,Lipstick,Beauty,Philips,39410,347
+290,Shampoo,Beauty,HP,60078,452
+291,Lipstick,Beauty,Dell,50622,456
+292,Shampoo,Beauty,Samsung,31291,215
+293,Cream,Beauty,Sony,38980,378
+294,Lipstick,Beauty,Nike,52079,160
+295,Face Wash,Beauty,Philips,6628,486
+296,Cream,Beauty,Puma,37712,417
+297,Perfume,Beauty,Philips,46379,132
+298,Perfume,Beauty,Philips,33050,367
+299,Perfume,Beauty,Samsung,5367,178
+300,Shampoo,Beauty,Nike,48023,394
